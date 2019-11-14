@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2d1cdbe-a3cb-48f2-a5d5-a01896c5ffc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MonoTest.java" afterDir="false" />
+    <list default="true" id="f2d1cdbe-a3cb-48f2-a5d5-a01896c5ffc9" name="Default Changelist" comment="mono practice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FluxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homegrownmarket" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,74 +55,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MonoTest.emptyCompleteConsumerMono">
-    <configuration name="MonoTest.emptyCompleteConsumerMono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FluxTest.fluxLimit">
+    <configuration name="FluxTest.fluxFromInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicereactor" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonoTest" />
-      <option name="METHOD_NAME" value="emptyCompleteConsumerMono" />
+      <option name="MAIN_CLASS_NAME" value="FluxTest" />
+      <option name="METHOD_NAME" value="fluxFromInterval" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonoTest.emptyMono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FluxTest.fluxFromIterable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicereactor" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonoTest" />
-      <option name="METHOD_NAME" value="emptyMono" />
+      <option name="MAIN_CLASS_NAME" value="FluxTest" />
+      <option name="METHOD_NAME" value="fluxFromIterable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonoTest.firstMonoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practicereactor" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="12" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonoTest" />
-      <option name="METHOD_NAME" value="firstMonoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonoTest.monoWithSubscribe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FluxTest.fluxFromRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicereactor" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonoTest" />
-      <option name="METHOD_NAME" value="monoWithSubscribe" />
+      <option name="MAIN_CLASS_NAME" value="FluxTest" />
+      <option name="METHOD_NAME" value="fluxFromRange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonoTest.monotWithDoOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FluxTest.fluxLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicereactor" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonoTest" />
-      <option name="METHOD_NAME" value="monotWithDoOn" />
+      <option name="MAIN_CLASS_NAME" value="FluxTest" />
+      <option name="METHOD_NAME" value="fluxLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxTest.fluxRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicereactor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FluxTest" />
+      <option name="METHOD_NAME" value="fluxRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MonoTest.firstMonoTest" />
-      <item itemvalue="JUnit.MonoTest.monoWithSubscribe" />
-      <item itemvalue="JUnit.MonoTest.monotWithDoOn" />
-      <item itemvalue="JUnit.MonoTest.emptyMono" />
-      <item itemvalue="JUnit.MonoTest.emptyCompleteConsumerMono" />
+      <item itemvalue="JUnit.FluxTest.fluxFromIterable" />
+      <item itemvalue="JUnit.FluxTest.fluxFromRange" />
+      <item itemvalue="JUnit.FluxTest.fluxFromInterval" />
+      <item itemvalue="JUnit.FluxTest.fluxRequest" />
+      <item itemvalue="JUnit.FluxTest.fluxLimit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MonoTest.emptyCompleteConsumerMono" />
-        <item itemvalue="JUnit.MonoTest.emptyMono" />
-        <item itemvalue="JUnit.MonoTest.monotWithDoOn" />
-        <item itemvalue="JUnit.MonoTest.monoWithSubscribe" />
-        <item itemvalue="JUnit.MonoTest.firstMonoTest" />
+        <item itemvalue="JUnit.FluxTest.fluxLimit" />
+        <item itemvalue="JUnit.FluxTest.fluxRequest" />
+        <item itemvalue="JUnit.FluxTest.fluxFromInterval" />
+        <item itemvalue="JUnit.FluxTest.fluxFromRange" />
+        <item itemvalue="JUnit.FluxTest.fluxFromIterable" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573730426065</updated>
-      <workItem from="1573730429501" duration="1908000" />
+      <workItem from="1573730429501" duration="3079000" />
     </task>
     <task id="LOCAL-00001" summary="add maven dependency">
       <created>1573730900060</created>
@@ -169,6 +162,18 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="add maven dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add maven dependency" />
+    <MESSAGE value="mono practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="mono practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FluxTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
