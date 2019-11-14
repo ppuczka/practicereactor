@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d1cdbe-a3cb-48f2-a5d5-a01896c5ffc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../homegrownmarket" beforeDir="false" afterPath="$PROJECT_DIR$/../homegrownmarket" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MonoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homegrownmarket" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,11 +34,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1TbYn4a0CN8rTuqbjUVED2N03ra" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,6 +59,77 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.MonoTest.emptyCompleteConsumerMono">
+    <configuration name="MonoTest.emptyCompleteConsumerMono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicereactor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonoTest" />
+      <option name="METHOD_NAME" value="emptyCompleteConsumerMono" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoTest.emptyMono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicereactor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonoTest" />
+      <option name="METHOD_NAME" value="emptyMono" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoTest.firstMonoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicereactor" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonoTest" />
+      <option name="METHOD_NAME" value="firstMonoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoTest.monoWithSubscribe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicereactor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonoTest" />
+      <option name="METHOD_NAME" value="monoWithSubscribe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoTest.monotWithDoOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicereactor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonoTest" />
+      <option name="METHOD_NAME" value="monotWithDoOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MonoTest.firstMonoTest" />
+      <item itemvalue="JUnit.MonoTest.monoWithSubscribe" />
+      <item itemvalue="JUnit.MonoTest.monotWithDoOn" />
+      <item itemvalue="JUnit.MonoTest.emptyMono" />
+      <item itemvalue="JUnit.MonoTest.emptyCompleteConsumerMono" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MonoTest.emptyCompleteConsumerMono" />
+        <item itemvalue="JUnit.MonoTest.emptyMono" />
+        <item itemvalue="JUnit.MonoTest.monotWithDoOn" />
+        <item itemvalue="JUnit.MonoTest.monoWithSubscribe" />
+        <item itemvalue="JUnit.MonoTest.firstMonoTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -50,8 +140,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573730426065</updated>
-      <workItem from="1573730429501" duration="189000" />
+      <workItem from="1573730429501" duration="1908000" />
     </task>
+    <task id="LOCAL-00001" summary="add maven dependency">
+      <created>1573730900060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573730900060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +165,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="add maven dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="add maven dependency" />
   </component>
 </project>
